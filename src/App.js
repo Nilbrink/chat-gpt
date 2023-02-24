@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import GPT3Component from './GPT3Component';
+
+import {Configuration, OpenAIApi} from 'openai'
+
+const App = () => {
+  const apiKey = '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';
+  
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>GPT-3 Demo</h1>
+      <GPT3Component apiKey={apiKey} />
     </div>
   );
-}
+};
+
 
 export default App;
