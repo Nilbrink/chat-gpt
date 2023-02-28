@@ -11,7 +11,9 @@
 }
 
 .Answer {
-  width: 100vw;
-  height:100vh;
+  margin-left:3em;
+  margin-right:3em;
+  width: 90vw;
+  height:50vh;
 }
 
