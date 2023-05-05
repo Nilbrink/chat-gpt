@@ -9,7 +9,7 @@ const App = () => {
   
   return (
     <div>
-      <h1>RISE GPT3 Component for React</h1>
+      <h1>RISE - Chat GPT3.5 Component for React</h1>
       <GPT3Component readOnly apiKey={apiKey} />
     </div>
   );
